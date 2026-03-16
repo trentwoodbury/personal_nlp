@@ -1,3 +1,9 @@
+"""
+I ran this through the Antigravity MCP server. 
+You can test this with the following prompt:
+Hey, list my available sounds. Then, play the 'arcade_fail' sound.
+"""
+
 from mcp.server.fastmcp import FastMCP
 import subprocess
 import os
