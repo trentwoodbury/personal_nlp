@@ -16,7 +16,6 @@ def play_sound(effect_name: str) -> str:
     if not os.path.exists(file_path):
         return f"Error: Sound '{effect_name}' not found in {SOUNDS_DIR}."
 
-    # Using 'start' for Windows as seen in your file path
     # 'shell=True' is needed for the 'start' command in Windows
     subprocess.Popen(f'start /min "" "{file_path}"', shell=True)
     
